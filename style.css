@@ -9,7 +9,7 @@
         
         h2 {
             text-align: left;
-            padding: 5% 0;
+            padding: 2% 0%;
             margin-left: 5%;
         }
         
@@ -20,9 +20,13 @@
             background-color: black;
         }
         
+        div img {
+            float: left;
+        }
+        
         .main-div {
             background-color: #383e56;
-            margin: 2% 5%;
+            margin: 2% 3%;
             color: #f69e7b;
         }
         
@@ -54,8 +58,22 @@
             background-color: #eedad1;
         }
         
+        .about-me-header {
+            display: flexbox;
+            align-items: center;
+        }
+        
         @media screen and (min-width: 980px) {
             .header {
                 display: none !important;
+            }
+        }
+        
+        @media screen and (max-width: 979px) {
+            .navbar-brand {
+                display: none !important;
+            }
+            nav {
+                margin: auto;
             }
         }
