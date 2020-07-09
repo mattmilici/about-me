@@ -1,52 +1,106 @@
-        li:not(:last-child) {
-            border-right: 1px solid #ccc;
-        }
-        
-        .navbar {
-            padding: 0% 3%;
-        }
-        
-        h2 {
-            text-align: left;
-            padding: 2% 0%;
-            margin-left: 5%;
-        }
-        
-        main {
-            background-color: #383e56;
-            margin: 2% 3%;
-            color: #f69e7b;
-            margin-right: 30%;
-        }
-        
-        .name-logo {
-            padding: 0 2%;
-            background-color: #383e56;
-            font-size: 3em;
-        }
-        
-        p {
-            line-height: 2.0rem;
-        }
-        
-        body {
-            background-color: #eedad1;
-        }
-        
-        header h1 {
-            padding-right: 5%;
-        }
-        
-        img {
-            margin-bottom: 4%;
-            margin-right: 3%;
-        }
-        
-        @media screen and (max-width: 900px) {
-            main {
-                background-color: #383e56;
-                color: #f69e7b;
-                margin-right: 0%;
-                margin: 2% 3%;
-            }
-        }
+li:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.navbar {
+    padding: 0% 3%;
+}
+
+h2 {
+    text-align: left;
+    padding: 2% 0%;
+    margin-left: 5%;
+}
+
+main {
+    background-color: #383e56;
+    margin: 2% 3%;
+    color: #f69e7b;
+    margin-right: 30%;
+    padding-bottom: 3%;
+}
+
+.name-logo {
+    padding: 0 2%;
+    background-color: #383e56;
+    font-size: 3em;
+}
+
+p {
+    line-height: 2.0rem;
+}
+
+body {
+    background-color: #eedad1;
+}
+
+header h1 {
+    padding-right: 5%;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    font-size: .9em;
+}
+
+
+/* ------------ contact me ---------------- */
+
+.form-group {
+    margin: 0 3% 3% 3%;
+}
+
+.message {
+    display: block;
+}
+
+
+/* ------------ contact me ---------------- */
+
+
+/* ----------- Portfolio ---------- */
+
+.bottom-right {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    opacity: 70%;
+}
+
+.LinkedIn {
+    padding: 0;
+    margin: 3% 2%;
+}
+
+
+/* ----------- Portfolio ---------- */
+
+@media screen and (max-width: 800px) {
+    main {
+        background-color: #383e56;
+        color: #f69e7b;
+        margin-right: 0%;
+        margin: 2% 1%;
+    }
+    .profile-img {
+        margin-bottom: 5%;
+        margin-right: 3%;
+    }
+    .container {
+        padding: 0;
+        margin: auto;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+}
