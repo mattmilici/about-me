@@ -27,7 +27,7 @@ main {
 }
 
 p {
-    line-height: 2.0rem;
+    line-height: 2rem;
 }
 
 body {
@@ -41,7 +41,7 @@ header h1 {
 .navbar-brand {
     padding: 0;
     margin: 0;
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
 
@@ -69,11 +69,6 @@ header h1 {
     width: 100%;
     background-color: blue;
     opacity: 70%;
-}
-
-.LinkedIn {
-    padding: 0;
-    margin: 3% 2%;
 }
 
 
