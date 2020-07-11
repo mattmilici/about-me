@@ -45,77 +45,14 @@ body {
 
 /* ----------- Portfolio ---------- */
 
-.LinkedIn {
-    width: 300px;
-    height: 200px;
-    background-image: url("./Assets/Images/placeholder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid red;
-    margin: auto;
-    margin-bottom: 4%;
+.card {
+    margin: 10px 15px;
 }
 
-.fun-facts {
-    width: 300px;
-    height: 200px;
-    background-image: url("./Assets/Images/placeholder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid red;
-    margin: auto;
-}
-
-.about-me {
-    width: 300px;
-    height: 200px;
-    background-image: url("./Assets/Images/placeholder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid red;
-    margin: auto;
-}
-
-.github {
-    width: 300px;
-    height: 200px;
-    background-image: url("./Assets/Images/placeholder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid red;
-    margin: auto;
-}
-
-.personal-site {
-    width: 300px;
-    height: 200px;
-    background-image: url("./Assets/Images/placeholder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid red;
-    margin: auto;
-}
-
-.past-projects {
-    width: 300px;
-    height: 200px;
-    background-image: url("./Assets/Images/placeholder.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid red;
-    margin: auto;
-}
-
-div span {
-    width: 100%;
-}
-
-.col-sm-12 p {
+.card-text {
     text-align: center;
     background-color: blue;
-    opacity: 70%;
-    position: relative;
-    top: 80%;
+    opacity: 75%;
 }
 
 
@@ -137,6 +74,9 @@ div span {
     }
     .nav-links {
         margin: auto;
+    }
+    .card {
+        margin: 5% auto;
     }
 }
 
