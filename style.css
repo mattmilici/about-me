@@ -1,16 +1,11 @@
-li:not(:last-child) {
-    border-right: 1px solid #ccc;
+/* ------------ navbar ---------------- */
+
+.nav-div {
+    margin: 0 3%;
 }
 
-.navbar {
-    padding: 0% 3%;
-}
 
-h2 {
-    text-align: left;
-    padding: 2% 0%;
-    margin-left: 5%;
-}
+/* ------------navbar---------------- */
 
 .profile-img {
     margin-bottom: 5%;
@@ -25,29 +20,12 @@ main {
     padding-bottom: 3%;
 }
 
-.name-logo {
-    padding: 0 2%;
-    background-color: #383e56;
-    font-size: 3em;
-}
-
 p {
     line-height: 2rem;
 }
 
 body {
     background-color: #eedad1;
-}
-
-header h1 {
-    padding-right: 5%;
-}
-
-.navbar-brand {
-    display: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.9em;
 }
 
 
@@ -143,7 +121,10 @@ div span {
 
 /* ----------- Portfolio ---------- */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
+    .text-center {
+        display: block;
+    }
     main {
         background-color: #383e56;
         color: #f69e7b;
@@ -154,15 +135,12 @@ div span {
         padding: 0;
         margin: auto;
     }
+    .nav-links {
+        margin: auto;
+    }
 }
 
-@media only screen and (max-width: 900px) {
-    header {
-        display: none;
-    }
-    .navbar-brand {
-        display: inline;
-    }
+@media only screen and (max-width: 768px) {
     p {
         text-align: center;
     }
