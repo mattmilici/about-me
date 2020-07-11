@@ -1,7 +1,29 @@
 /* ------------ navbar ---------------- */
 
 .nav-div {
-    margin: 0 3%;
+    padding: 0 5%;
+    background-color: #eeeeee;
+    border-bottom: 1px solid gray;
+}
+
+.navbar {
+    padding: 0%;
+    background-color: #eeeeee;
+}
+
+header h1 {
+    padding: 10px 10px;
+    margin: 0%;
+    background-color: teal;
+    color: white;
+}
+
+.collapse {
+    background-color: #eeeeee;
+}
+
+.nav-links {
+    background-color: #eeeeee;
 }
 
 
@@ -42,17 +64,41 @@ body {
 
 /* ------------ contact me ---------------- */
 
+.page-div {
+    padding: 20px;
+}
+
+hr {
+    background-color: white;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 
 /* ----------- Portfolio ---------- */
 
-.card {
-    margin: 10px 15px;
-}
-
 .card-text {
     text-align: center;
-    background-color: blue;
+    background-color: #f69e7b;
     opacity: 75%;
+    color: #383e56;
+    font-weight: bold;
+}
+
+.row {
+    margin-bottom: 3%;
 }
 
 
@@ -78,10 +124,19 @@ body {
     .card {
         margin: 5% auto;
     }
+    .row {
+        margin-bottom: 5%;
+    }
+    .nav-div {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     p {
         text-align: center;
+    }
+    .row {
+        margin-bottom: 5%;
     }
 }
