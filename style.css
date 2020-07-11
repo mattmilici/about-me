@@ -12,6 +12,11 @@ h2 {
     margin-left: 5%;
 }
 
+.profile-img {
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
 main {
     background-color: #383e56;
     margin: 2% 3%;
@@ -39,6 +44,7 @@ header h1 {
 }
 
 .navbar-brand {
+    display: none;
     padding: 0;
     margin: 0;
     font-size: 0.9em;
@@ -61,14 +67,77 @@ header h1 {
 
 /* ----------- Portfolio ---------- */
 
-.bottom-right {
-    position: absolute;
-    text-align: center;
-    top: 80%;
-    left: 0;
+.LinkedIn {
+    width: 300px;
+    height: 200px;
+    background-image: url("./Assets/Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.fun-facts {
+    width: 300px;
+    height: 200px;
+    background-image: url("./Assets/Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.about-me {
+    width: 300px;
+    height: 200px;
+    background-image: url("./Assets/Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.github {
+    width: 300px;
+    height: 200px;
+    background-image: url("./Assets/Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.personal-site {
+    width: 300px;
+    height: 200px;
+    background-image: url("./Assets/Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.past-projects {
+    width: 300px;
+    height: 200px;
+    background-image: url("./Assets/Images/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin: auto;
+}
+
+div span {
     width: 100%;
+}
+
+.col-sm-12 p {
+    text-align: center;
     background-color: blue;
     opacity: 70%;
+    position: relative;
+    top: 80%;
 }
 
 
@@ -81,21 +150,20 @@ header h1 {
         margin-right: 0%;
         margin: 2% 1%;
     }
-    .profile-img {
-        margin-bottom: 5%;
-        margin-right: 3%;
-    }
     .container {
         padding: 0;
         margin: auto;
-    }
-    p {
-        text-align: center;
     }
 }
 
 @media only screen and (max-width: 900px) {
     header {
         display: none;
+    }
+    .navbar-brand {
+        display: inline;
+    }
+    p {
+        text-align: center;
     }
 }
