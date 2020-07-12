@@ -1,3 +1,37 @@
+main {
+    background-color: #3b6978;
+    margin: 2% 3%;
+    color: #e4e3e3;
+    margin-right: 30%;
+    padding-bottom: 3%;
+}
+
+body {
+    background-color: #eedad1;
+}
+
+.page-div {
+    padding: 20px;
+    margin-bottom: 20%;
+}
+
+hr {
+    background-color: #eedad1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+h1,
+p,
+h2 {
+    font-family: "PT Serif", serif;
+}
+
+
 /* ------------ navbar ---------------- */
 
 .nav-div {
@@ -6,9 +40,8 @@
     border-bottom: 1px solid gray;
 }
 
-.navbar {
-    padding: 0%;
-    background-color: #84a9ac;
+a {
+    color: #eedad1;
 }
 
 header h1 {
@@ -36,19 +69,6 @@ nav,
     align-content: space-between;
 }
 
-.navlinks,
-nav {
-    margin: auto;
-}
-
-.header-nav {
-    display: flex;
-}
-
-header {
-    display: inline;
-}
-
 
 /* ------------navbar---------------- */
 
@@ -63,26 +83,20 @@ header {
 
 /* ------------footer---------------- */
 
+
+/* ------------About Me---------------- */
+
 .profile-img {
     margin-bottom: 5%;
     margin-right: 5%;
-}
-
-main {
-    background-color: #3b6978;
-    margin: 2% 3%;
-    color: #e4e3e3;
-    margin-right: 30%;
-    padding-bottom: 3%;
 }
 
 p {
     line-height: 2rem;
 }
 
-body {
-    background-color: #eedad1;
-}
+
+/* ------------About Me---------------- */
 
 
 /* ------------ contact me ---------------- */
@@ -98,33 +112,12 @@ body {
 
 /* ------------ contact me ---------------- */
 
-.page-div {
-    padding: 20px;
-    margin-bottom: 20%;
-}
-
-hr {
-    background-color: white;
-    margin-left: 15px;
-    margin-left: 15px;
-}
-
-h2 {
-    padding-left: 15px;
-}
-
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-}
-
-h1,
-p,
-h2 {
-    font-family: "PT Serif", serif;
 }
 
 
@@ -171,19 +164,24 @@ h2 {
     .row {
         margin-bottom: 5%;
     }
+    hr {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card {
+        margin: 5% auto;
+    }
+    h2 {
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 640px) {
-    header,
-    .class {
-        display: block;
-        width: 100%;
-    }
-    .class {
+    .nav-ul {
         margin: auto;
         padding: 1% 0;
     }
-    .test {
+    .nav-links {
         margin: auto;
         justify-content: center;
     }
@@ -213,5 +211,21 @@ h2 {
     }
     .nav-item {
         display: inline;
+    }
+    hr {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header,
+    .nav-ul {
+        display: block;
+        width: 100%;
+    }
+    hr {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
