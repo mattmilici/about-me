@@ -75,6 +75,7 @@ body {
 
 .page-div {
     padding: 20px;
+    margin-bottom: 20%;
 }
 
 hr {
@@ -133,6 +134,20 @@ h2 {
 
 /* ----------- Portfolio ---------- */
 
+@media only screen and (max-width: 768px) {
+    main {
+        margin-right: 0%;
+        margin: 2% 1%;
+    }
+    .container {
+        padding: 0;
+        margin: auto;
+    }
+    .row {
+        margin-bottom: 5%;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .text-center {
         display: block;
@@ -156,14 +171,5 @@ h2 {
     }
     .nav-div {
         padding: 0;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    p {
-        text-align: center;
-    }
-    .row {
-        margin-bottom: 5%;
     }
 }
