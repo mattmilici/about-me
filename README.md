@@ -21,8 +21,8 @@ Three pages.
 4. All Pages
    - All pages include a navbar and footer. The navbar/footer can be updated as needed.
    - All pages are also responsive and built in with breakpoints. The breakpoints used are 640px, 768px, and 980px (width). See image below for layout difference at 680px vs 768px.
-   ![](640-contact.png)
-   ![](768-contact.png)
+   ![](./Assets/640-contact.png)
+   ![](./Assets/768-contact.png)
 
 # about-me
 
